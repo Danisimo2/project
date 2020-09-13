@@ -7,16 +7,12 @@ state={
 
 	showBlock:false
 }
-	addNewCategory=()=>{
-this.setState({
+addNewCategory=()=>{
+       this.setState({
 	showBlock:!this.state.showBlock
 })
 	}
 render(){
-
-
-
-	
 	
 	return(
 		<div className="wrapper">

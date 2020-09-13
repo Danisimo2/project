@@ -1,4 +1,11 @@
 .wrapper{
-position: relative;
+ position: relative;
 z-index: 1;
 }
+.money{
+    position: absolute;
+    right:140px;
+    top:80px;
+
+}
+
