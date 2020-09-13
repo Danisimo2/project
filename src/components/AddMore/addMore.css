@@ -1,0 +1,22 @@
+.main{
+    height: 770px;
+    width: 1220px;
+    background-color:#C8C8C8;
+    position: absolute;
+    left:300px;
+    top:0px;
+}
+.balance{
+    position: absolute;
+    right: 120px;
+    top:40px;
+    font-size: xx-large;
+    color:#37373D;
+}
+.cash{
+    position: absolute;
+    right: 100px;
+    top:80px;
+    font-size:40px;
+    color:#37373D;
+}
