@@ -156,6 +156,8 @@ th{
 }
 
 .tbl{
+	width: 80%;
+	float: right;
 	border-bottom: 1px solid black;
 	padding-bottom: 10px;
 }

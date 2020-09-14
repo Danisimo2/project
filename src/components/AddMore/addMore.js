@@ -1,6 +1,6 @@
 import React from "react"
 import "./addMore.css"
-import AddMoreContent from "../AddMoreContent/addMoreContent"
+import AddMoreContent from "../addMoreContent/addMoreContent"
 
 class AddMore extends React.Component{
     render(){
