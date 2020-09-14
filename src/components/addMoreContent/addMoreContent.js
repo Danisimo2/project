@@ -1,5 +1,7 @@
 import React from "react"
 import "./addMoreContent.css"
+import AddMore from "../AddMore/addMore.js"
+
 
 class AddMoreContent extends React.Component{
     render(){
@@ -29,7 +31,9 @@ return(
                  <p className="p4">Date</p> 
                  <input type="date"className="input-date"/>
            </div>
-                <button className="btn">Add new income</button>
+                <button className="btn">
+                Add new income
+                </button>
             </div>
 
          );
