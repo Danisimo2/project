@@ -1,6 +1,6 @@
 import React ,{Component} from 'react';
 import AddMore from "./AddMore/addMore"
-import Categories from "./categories/categories/categories"
+import Categories from "./categories/categories"
 import "./MainPage.css"
 
 class MainPage extends Component {

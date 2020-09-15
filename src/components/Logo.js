@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Categories from "./categories/categories/categories"
+import Categories from "./categories/categories"
 import logo from './images/logo.svg'
 
 const showCategoriesList=()=>{
