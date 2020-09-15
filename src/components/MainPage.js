@@ -1,16 +1,21 @@
 import React ,{Component} from 'react';
 import AddMore from "./AddMore/addMore"
+import Categories from "./categories/categories/categories"
 import "./MainPage.css"
 
 class MainPage extends Component {
 state={
-	showBlock:false
+	showBlock:false,
+	showCategories:false
 }
 addNewCategory=()=>{
        this.setState({
 	showBlock:!this.state.showBlock
 })
 	}
+
+
+
 render(){
 	
 	return(
@@ -51,6 +56,10 @@ render(){
 		  </div>
 		  {this.state.showBlock ?
 		  <AddMore />
+		  :null
+		  }
+          {this.state.showCategories ?
+		  <Categories />
 		  :null
 		  }
 		</div>
