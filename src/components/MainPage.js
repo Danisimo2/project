@@ -17,7 +17,7 @@ render(){
 		<div className="wrapper">
 		  <div className="allBalance">
 		    <div className="balance">Balance</div> 
-		    <div className="money">$300,00</div>
+		    <div className="money">$300.00</div>
 		  </div>
 		  <div className="mainButtons">
 		    <button className="charges">Charges</button>
