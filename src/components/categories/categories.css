@@ -1,3 +1,4 @@
+
 .categories-wraper {
     display: flex;
     flex-direction: column;
@@ -5,8 +6,9 @@
     align-items: center;
     width: 80%;
     height: 100%;
-    background: #FFF;
+    background-color: #C8C8C8;
     color: #58607B;
+   
 }
 .status {
     width: 100%;
@@ -88,3 +90,15 @@
     margin-right: -10px;
 }
 
+.btnn{
+    position: absolute;
+    bottom:150px;
+    right:50px;
+    height:40px;
+    width: 190px;
+    border-radius:10px;
+    border:2px solid#808082;
+    background-color: #5A8DEE;
+    color:#676767;
+    font-size:20px;
+   }

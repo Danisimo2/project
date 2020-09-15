@@ -1,16 +1,19 @@
 import React from "react"
-import "./addMoreContent.css"
+import "./addNewCategory.css"
 
 
 
-class AddMoreContent extends React.Component{
+class AddNewCategory extends React.Component{
+    
+
     render(){
 
 return(
-    <div className="content">
-         <p className="charge">New Charge</p>
+    <div className="main">
+    <div className="contentt">
+         <p className="charge">New Category</p>
             <div className="total">
-                <p className="p1">Total</p>
+                <p className="p1">Name</p>
                 <input type="text"className="input"/>
             </div> 
             <div className="description">
@@ -18,25 +21,21 @@ return(
                 <input type="text"className="input1"/>
                 </div>
             <div className="select">
-                 <p className="p3">Select category</p>
+                 <p className="p3">Select icon</p>
                  <select className="selectors">
-                     <option selected>Food</option>
+                     <option defaultValue>Food</option>
                      <option>Clothes</option>
                      <option>Restaurants</option>
                      <option>Utility bills</option>
                      <option>Pets</option>
                 </select>
             </div>
-            <div className="date">
-                 <p className="p4">Date</p> 
-                 <input type="date"className="input-date"/>
-           </div>
                 <button className="btn">
-                Add new income
+                Add new category
                 </button>
             </div>
-
+                 </div>
          );
     }
 }
-export default AddMoreContent
+export default AddNewCategory

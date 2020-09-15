@@ -3,6 +3,7 @@ import React from 'react';
 import Categories from "./categories/categories"
 import logo from './images/logo.svg'
 
+
 const showCategoriesList=()=>{
        this.setState({
 	showCategories:!this.state.showCategories
@@ -17,9 +18,9 @@ const Logo = () => {
 		    <p>MoneyTracker</p>
 		  </div>
 		  <div className="buttons_logo">
-			  <a href="#">Home</a>
+			  <a href="/home">Home</a>
 			  <a href="#">Charts</a>
-			  <a href="#" src={this.showCategoriesList}>Categories</a>
+			  <a href="/categories">Categories</a>
 		  </div>
 		</div>
 	)

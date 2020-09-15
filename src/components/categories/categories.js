@@ -1,14 +1,32 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
+
+import AddNewCategory from "../AddNewCaregory/addNewCategory"
 
 import "./categories.css"
 import "./reset.css"
 
-import dots from "../../images/dots.svg";
-import food from "../../images/food.svg";
+import dots from "../images/dots.svg";
+import food from "../images/food.svg";
 
 
 
-function Categories() {
+class Categories extends Component {
+
+    state={
+        showNewCategory:false,
+        
+    }
+    
+    newCategory=()=>{
+        this.setState({
+            showNewCategory :!this.state.showNewCategory
+    })
+     }	
+
+
+    render(){
+
+
     return ( 
         <div className="categories-wraper">
             <div className="status">
@@ -17,7 +35,7 @@ function Categories() {
             </div>
             <div className="table-actions">
                 <h3>Categories</h3>
-                <button>Add more</button>
+                <button className="btnn"onClick={this.newCategory}>Add more</button>
             </div>
             <div className="categories-table">
                 <ul className="table-header">
@@ -35,9 +53,14 @@ function Categories() {
                     </li>
                 </ul>
             </div>
+            {this.state.showNewCategory ?
+          <AddNewCategory />
+           :null
+           }
+
         </div> 
     )
 }
 
-
+ }
 export default Categories;

@@ -1,10 +1,20 @@
-.content{
+
+
+    .main{
+        height: 770px;
+        width: 620px;
+        background-color:#C8C8C8;
+        position: absolute;
+        left:300px;
+        top:0px;
+    }
+.contentt{
     width: 650px;
-    height: 600px;
+    height: 500px;
     border: 2px solid #15202B;
     position: absolute;
-    left: 200px;
-    top:110px;
+    left: 300px;
+    top:140px;
     border-radius:20px;
     position: absolute;
     z-index: 3;

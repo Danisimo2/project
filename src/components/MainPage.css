@@ -1,11 +1,17 @@
-.wrapper{
+body{
  position: relative;
 z-index: 1;
+background-color: #C8C8C8;
 }
 .money{
     position: absolute;
     right:140px;
     top:80px;
-
 }
+th{
+    margin:10px;
+}
+add{
 
+    
+}

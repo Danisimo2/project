@@ -1,18 +1,19 @@
 import React ,{Component} from 'react';
 import AddMore from "./AddMore/addMore"
-import Categories from "./categories/categories"
+import Categories from"./categories/categories"
 import "./MainPage.css"
 
 class MainPage extends Component {
 state={
 	showBlock:false,
-	showCategories:false
+	
 }
-addNewCategory=()=>{
-       this.setState({
-	showBlock:!this.state.showBlock
+
+addMore=()=>{
+	this.setState({
+ showBlock:!this.state.showBlock
 })
-	}
+ }	
 
 
 
@@ -37,7 +38,7 @@ render(){
 				  <option value="thisYear">This year</option>
 			  	</select>
 		  	</div>
-				<button className="add"onClick={this.addNewCategory}>Add more</button>
+				<button className="add"onClick={this.addMore}>Add more</button>
 		  </div>
 		  <div className="mainTable">
 		    <div className="tbl">
@@ -55,13 +56,11 @@ render(){
 		    </div>
 		  </div>
 		  {this.state.showBlock ?
-		  <AddMore />
+		  
+		 <AddMore />
 		  :null
 		  }
-          {this.state.showCategories ?
-		  <Categories />
-		  :null
-		  }
+          
 		</div>
 	)
 }
